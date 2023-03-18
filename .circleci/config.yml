@@ -1,0 +1,23 @@
+version: 2.1
+
+orbs:
+  codecov: codecov/codecov@3.2.4
+
+jobs:
+  test:
+    docker:
+      - image: cimg/node:18.2.0
+    steps:
+      - checkout
+      - run:
+          name: Install requirements
+          command: npm i
+      - run:
+          name: Run tests and collect coverage
+          command: npm run test
+      - codecov/upload
+
+workflows:
+  build-test:
+    jobs:
+      - test

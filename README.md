@@ -1,4 +1,4 @@
-# React Waving Hand
+# react-waving-hand
 
 Add smoothly animated waving hand to your react project in just a minute.
 
@@ -17,7 +17,14 @@ pnpm add @tensaye-o/react-waving-hand
 ## Example
 
 ```tsx
-<WavingHand loop={2} motion={true} size='2.5rem' type={2} />
+import { WavingHand } from '@tensaye-o/react-waving-hand'
+
+// in jsx
+const Greetings = () => (
+  <h3>
+    Hi there <WavingHand loop={2} motion={true} size='1.25rem' type={2} />
+  </h1>
+)
 ```
 
 ## Documentation
@@ -28,9 +35,9 @@ Check out the [live demo]().
 
 <table>
   <tr>
-    <th>Property</th>
-    <th>Type</th>
-    <th>Remarks</th>
+    <th align="left">Property</th>
+    <th align="left">Type</th>
+    <th align="left">Remarks</th>
   </tr>
   <tr>
     <td><p>size</p></td>
@@ -70,7 +77,7 @@ Check out the [live demo]().
   </tr>
   <tr>
     <td><p>others</p></td>
-    <td><p><code>HTMLAttributes&lt;HTMLSpanElement&gt;</code></p></td>
+    <td><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">HTMLAttributes&lt;HTMLSpanElement&gt;</a></p></td>
     <td>
       <p>Attributes inherit from <code>span</code> element.</p>
     </td>
