@@ -29,7 +29,7 @@ const Greetings = () => (
 
 ## Documentation
 
-Check out the [live demo](https://tensaye-o.github.io/react-waving-hand/).
+Check out the [live demo](https://tensaye-o.github.io/react-waving-hand/index.html).
 
 ### Properties
 
