@@ -1,4 +1,4 @@
-# react-waving-hand
+# react-waving-hand [![CircleCI](https://dl.circleci.com/status-badge/img/gh/tensaye-o/react-waving-hand/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/tensaye-o/react-waving-hand/tree/main) [![codecov](https://codecov.io/gh/tensaye-o/react-waving-hand/branch/main/graph/badge.svg?token=XBOCWW289U)](https://codecov.io/gh/tensaye-o/react-waving-hand)
 
 Add smoothly animated waving hand to your react project in just a minute.
 
