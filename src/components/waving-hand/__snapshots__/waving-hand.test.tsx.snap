@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`turn off motion 1`] = `
+<span
+  className=""
+  style={
+    {
+      "fontSize": "1rem",
+    }
+  }
+>
+  👋
+</span>
+`;
+
+exports[`turn on motion 1`] = `
+<span
+  className="motion"
+  style={
+    {
+      "animationIterationCount": 2,
+      "fontSize": "2.5rem",
+    }
+  }
+>
+  👋🏼
+</span>
+`;
