@@ -29,7 +29,7 @@ const Greetings = () => (
 
 ## Documentation
 
-Check out the [live demo]().
+Check out the [live demo](https://tensaye-o.github.io/react-waving-hand/).
 
 ### Properties
 
@@ -77,7 +77,7 @@ Check out the [live demo]().
   </tr>
   <tr>
     <td><p>others</p></td>
-    <td><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes">HTMLAttributes&lt;HTMLSpanElement&gt;</a></p></td>
+    <td><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#list_of_global_attributes"><code>HTMLAttributes&lt;HTMLSpanElement&gt;</code></a></p></td>
     <td>
       <p>Attributes inherit from <code>span</code> element.</p>
     </td>
