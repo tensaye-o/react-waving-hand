@@ -24,7 +24,7 @@ import '@tensaye-yuan/react-waving-hand/dist/index.css'
 const Greetings = () => (
   <h3>
     Hi there <WavingHand loop={2} motion={true} size='1.25rem' type={2} />
-  </h1>
+  </h3>
 )
 ```
 
