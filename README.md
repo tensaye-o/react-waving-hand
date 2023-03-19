@@ -5,19 +5,20 @@ Add smoothly animated waving hand to your react project in just a minute.
 ## Installation
 
 ```sh
-npm i @tensaye-o/react-waving-hand
+npm i @tensaye-yuan/react-waving-hand
 
 # via yarn
-yarn add @tensaye-o/react-waving-hand
+yarn add @tensaye-yuan/react-waving-hand
 
 # via pnpm
-pnpm add @tensaye-o/react-waving-hand
+pnpm add @tensaye-yuan/react-waving-hand
 ```
 
 ## Example
 
 ```tsx
 import { WavingHand } from '@tensaye-o/react-waving-hand'
+import '@tensaye-yuan/react-waving-hand/dist/index.css'
 
 // in jsx
 const Greetings = () => (
