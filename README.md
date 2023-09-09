@@ -17,7 +17,7 @@ pnpm add @tensaye-yuan/react-waving-hand
 ## Example
 
 ```tsx
-import { WavingHand } from '@tensaye-o/react-waving-hand'
+import { WavingHand } from '@tensaye-yuan/react-waving-hand'
 import '@tensaye-yuan/react-waving-hand/dist/index.css'
 
 // in jsx
